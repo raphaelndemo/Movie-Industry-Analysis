@@ -16,6 +16,36 @@ The objective of this project is to support the company’s decision to launch a
 .To evaluate revenue distribution but geography to determine top performing regions
 
 ## Data Understanding and Analysis
+The data utilized in this project was carefully selected from multiple reputable sources to gain insights into the movie industry's landscape. These datasets cover various critical aspects, including box office performance, production budgets, genres, and audience/critic ratings. The datasets include:
+
+1. **Movie Gross**: Contains information about box office gross revenue.
+2. **TMDB Movies Data**: Includes metadata such as movie titles, genres, and other industry-specific attributes.
+3. **Movie Budgets**: Details the production budgets and resulting worldwide gross income, helping in ROI analyses.
+4. **Rotten Tomatoes Movie Information**: Provides critic reviews and audience scores, valuable for understanding rating profiles.
+5. **Reviews Data**: Consists of textual reviews for sentiment and critical analysis.
+
+### Data Loading
+The datasets have been imported using the Pandas library from `.csv` and `.tsv` files. Preliminary inspection was conducted to verify the structure, content, and completeness:
+- Each dataset was loaded and checked for null values or inconsistencies.
+- Summary statistics (count, mean, etc.) were generated to understand initial trends and anomalies.
+
+### Data Analysis Approach
+Data analysis conducted in the notebook centers around the following goals:
+1. **Exploratory Data Analysis (EDA)**:
+   - Using visual tools (e.g., Matplotlib) for trends analysis such as revenue by genre and the relationship between production budgets and gross revenue.
+   - Statistical methods were applied to analyze the distribution of revenue across geographies.
+   
+2. **Insights Extraction**:
+   - Identification of high-performing genres based on revenue data.
+   - Classification of audience and critic preferences through analysis of scoring metrics.
+   - Calculation of ROI to determine the influence of production budgets on profitability metrics.
+
+The analysis is critical in distributing resources efficiently and crafting evidence-backed strategies. Using a multifaceted approach ensures the results are robust and actionable for business decision-making.
+
+### Tools Used
+- **Pandas**: Data cleaning, manipulation, and exploration.
+- **Matplotlib**: Generating plots for visual insights.
+- **SQLite**: Manage and query data if necessary (not explicitly used but imported for utility).
 
 
 ## Conclusion
