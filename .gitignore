@@ -3,6 +3,7 @@ zippedData/im.db.zip
 zippedData/im.db
 notebooks/zippedData/im.db
 .vscode/
+.DS_Store
 notebooks/im.db
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -133,3 +134,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
