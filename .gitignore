@@ -1,8 +1,9 @@
 # Removing large files
 zippedData/im.db.zip
 zippedData/im.db
+notebooks/zippedData/im.db
 .vscode/
-
+notebooks/im.db
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
